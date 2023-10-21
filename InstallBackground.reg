@@ -3,5 +3,5 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Create Date-Time Folder]
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Create Date-Time Folder\command]
-@="C:\\\\Windows\\\\system32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -sta -ExecutionPolicy Bypass -NoProfile -Command \"New-Item -ItemType Directory -Path '%1' -Name ((Get-Date).tostring('yyyy-MM-dd hh-mm-ss'))\""
+@="C:\\\\Windows\\\\system32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -sta -ExecutionPolicy Bypass -NoProfile -Command \"New-Item -ItemType Directory -Path '%V' -Name ((Get-Date).tostring('yyyy-MM-dd hh-mm-ss'))\""
 
